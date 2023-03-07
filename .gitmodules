@@ -1,0 +1,3 @@
+[submodule "src/3rdparty/maplibre-gl-native"]
+	path = src/3rdparty/maplibre-gl-native
+	url = https://github.com/maplibre/maplibre-gl-native.git
