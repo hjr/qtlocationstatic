@@ -32,7 +32,7 @@ else()
 endif()
 
 if(CMAKE_SYSTEM_NAME STREQUAL "Linux")
-    option(MBGL_QT_WITH_INTERNAL_ICU "Build MapLibre GL Qt bindings with internal ICU" OFF)
+    option(MBGL_QT_WITH_INTERNAL_ICU "Build MapLibre GL Qt bindings with internal ICU" ON)
     if(NOT MBGL_QT_WITH_INTERNAL_ICU)
        find_package(ICU COMPONENTS uc REQUIRED)
     else()
